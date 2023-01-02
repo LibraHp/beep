@@ -1,0 +1,409 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Project\C51\beep\Project.uvproj
+Project File Date:  01/02/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(4): warning C318: can't open file 'timer.h'
+DELAY.H(13): error C237: '_delay': function already has a body
+DELAY.H(18): error C237: '_delay12us': function already has a body
+DELAY.H(13): error C237: '_delay': function already has a body
+DELAY.H(18): error C237: '_delay12us': function already has a body
+music.h(4): warning C318: can't open file 'timer.h'
+BUZZER.H(5): error C231: 'P37': redefinition
+BUZZER.H(11): error C237: 'Buzzer_Delay500us': function already has a body
+BUZZER.H(18): error C237: '_Buzzer_Time': function already has a body
+DELAY.H(13): error C237: '_delay': function already has a body
+DELAY.H(18): error C237: '_delay12us': function already has a body
+KEY.H(5): error C231: 'L0': redefinition
+KEY.H(6): error C231: 'L1': redefinition
+KEY.H(7): error C231: 'L2': redefinition
+KEY.H(8): error C231: 'L3': redefinition
+KEY.H(9): error C231: 'L4': redefinition
+KEY.H(10): error C231: 'L5': redefinition
+KEY.H(11): error C231: 'L6': redefinition
+KEY.H(12): error C231: 'L7': redefinition
+KEY.H(13): error C231: 'K0': redefinition
+KEY.H(14): error C231: 'K1': redefinition
+KEY.H(15): error C231: 'K2': redefinition
+KEY.H(16): error C231: 'K3': redefinition
+KEY.H(24): error C237: 'Key': function already has a body
+KEY.H(56): error C237: 'key_scan': function already has a body
+MUSIC.H(70): error C231: 'P37': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+BUZZER.H(5): error C231: 'P37': redefinition
+DELAY.H(13): error C237: '_delay': function already has a body
+DELAY.H(18): error C237: '_delay12us': function already has a body
+DELAY.H(13): error C237: '_delay': function already has a body
+DELAY.H(18): error C237: '_delay12us': function already has a body
+TIMER.H(2): error C231: 'P37': redefinition
+TIMER.H(14): error C237: 'timerInit': function already has a body
+BUZZER.H(5): error C231: 'P37': redefinition
+BUZZER.H(11): error C237: 'Buzzer_Delay500us': function already has a body
+BUZZER.H(18): error C237: '_Buzzer_Time': function already has a body
+DELAY.H(13): error C237: '_delay': function already has a body
+DELAY.H(18): error C237: '_delay12us': function already has a body
+KEY.H(5): error C231: 'L0': redefinition
+KEY.H(6): error C231: 'L1': redefinition
+KEY.H(7): error C231: 'L2': redefinition
+KEY.H(8): error C231: 'L3': redefinition
+KEY.H(9): error C231: 'L4': redefinition
+KEY.H(10): error C231: 'L5': redefinition
+KEY.H(11): error C231: 'L6': redefinition
+KEY.H(12): error C231: 'L7': redefinition
+KEY.H(13): error C231: 'K0': redefinition
+KEY.H(14): error C231: 'K1': redefinition
+KEY.H(15): error C231: 'K2': redefinition
+KEY.H(16): error C231: 'K3': redefinition
+KEY.H(24): error C237: 'Key': function already has a body
+KEY.H(56): error C237: 'key_scan': function already has a body
+MUSIC.H(70): error C231: 'P37': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(13): error C231: 'P0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(14): error C231: 'P1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(15): error C231: 'P2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(16): error C231: 'P3': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(17): error C231: 'PSW': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(18): error C231: 'ACC': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(19): error C231: 'B': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(20): error C231: 'SP': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(21): error C231: 'DPL': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(22): error C231: 'DPH': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(23): error C231: 'PCON': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(24): error C231: 'TCON': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(25): error C231: 'TMOD': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(26): error C231: 'TL0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(27): error C231: 'TL1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(28): error C231: 'TH0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(29): error C231: 'TH1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(30): error C231: 'IE': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(31): error C231: 'IP': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(32): error C231: 'SCON': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(33): error C231: 'SBUF': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(36): error C231: 'T2CON': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(37): error C231: 'RCAP2L': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(38): error C231: 'RCAP2H': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(39): error C231: 'TL2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(40): error C231: 'TH2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(45): error C231: 'CY': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(46): error C231: 'AC': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(47): error C231: 'F0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(48): error C231: 'RS1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(49): error C231: 'RS0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(50): error C231: 'OV': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(51): error C231: 'P': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(54): error C231: 'TF1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(55): error C231: 'TR1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(56): error C231: 'TF0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(57): error C231: 'TR0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(58): error C231: 'IE1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(59): error C231: 'IT1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(60): error C231: 'IE0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(61): error C231: 'IT0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(64): error C231: 'EA': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(65): error C231: 'ET2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(66): error C231: 'ES': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(67): error C231: 'ET1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(68): error C231: 'EX1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(69): error C231: 'ET0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(70): error C231: 'EX0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(73): error C231: 'PT2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(74): error C231: 'PS': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(75): error C231: 'PT1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(76): error C231: 'PX1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(77): error C231: 'PT0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(78): error C231: 'PX0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(81): error C231: 'RD': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(82): error C231: 'WR': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(83): error C231: 'T1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(84): error C231: 'T0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(85): error C231: 'INT1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(86): error C231: 'INT0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(87): error C231: 'TXD': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(88): error C231: 'RXD': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(91): error C231: 'SM0': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(92): error C231: 'SM1': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(93): error C231: 'SM2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(94): error C231: 'REN': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(95): error C231: 'TB8': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(96): error C231: 'RB8': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(97): error C231: 'TI': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(98): error C231: 'RI': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(101): error C231: 'T2EX': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(102): error C231: 'T2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(105): error C231: 'TF2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(106): error C231: 'EXF2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(107): error C231: 'RCLK': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(108): error C231: 'TCLK': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(109): error C231: 'EXEN2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(110): error C231: 'TR2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(111): error C231: 'C_T2': redefinition
+D:\PROGRAM FILES\KEIL\C51\INC\REG52.H(112): error C231: 'CP_RL2': redefinition
+TIMER.H(2): error C231: 'P37': redefinition
+BUZZER.H(5): error C231: 'P37': redefinition
+DELAY.H(13): error C237: '_delay': function already has a body
+DELAY.H(18): error C237: '_delay12us': function already has a body
+DELAY.H(13): error C237: '_delay': function already has a body
+DELAY.H(18): error C237: '_delay12us': function already has a body
+TIMER.H(2): error C231: 'P37': redefinition
+TIMER.H(14): error C237: 'timerInit': function already has a body
+BUZZER.H(5): error C231: 'P37': redefinition
+BUZZER.H(11): error C237: 'Buzzer_Delay500us': function already has a body
+BUZZER.H(18): error C237: '_Buzzer_Time': function already has a body
+DELAY.H(13): error C237: '_delay': function already has a body
+DELAY.H(18): error C237: '_delay12us': function already has a body
+KEY.H(5): error C231: 'L0': redefinition
+KEY.H(6): error C231: 'L1': redefinition
+KEY.H(7): error C231: 'L2': redefinition
+KEY.H(8): error C231: 'L3': redefinition
+KEY.H(9): error C231: 'L4': redefinition
+KEY.H(10): error C231: 'L5': redefinition
+KEY.H(11): error C231: 'L6': redefinition
+KEY.H(12): error C231: 'L7': redefinition
+KEY.H(13): error C231: 'K0': redefinition
+KEY.H(14): error C231: 'K1': redefinition
+KEY.H(15): error C231: 'K2': redefinition
+KEY.H(16): error C231: 'K3': redefinition
+KEY.H(24): error C237: 'Key': function already has a body
+KEY.H(56): error C237: 'key_scan': function already has a body
+MUSIC.H(70): error C231: 'P37': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TIMER.H(2): error C231: 'P37': redefinition
+BUZZER.H(5): error C231: 'P37': redefinition
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+TIMER.H(2): error C231: 'P37': redefinition
+TIMER.H(14): error C237: 'timerInit': function already has a body
+BUZZER.H(5): error C231: 'P37': redefinition
+BUZZER.H(11): error C237: 'Buzzer_Delay500us': function already has a body
+BUZZER.H(18): error C237: '_Buzzer_Time': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+KEY.H(5): error C231: 'L0': redefinition
+KEY.H(6): error C231: 'L1': redefinition
+KEY.H(7): error C231: 'L2': redefinition
+KEY.H(8): error C231: 'L3': redefinition
+KEY.H(9): error C231: 'L4': redefinition
+KEY.H(10): error C231: 'L5': redefinition
+KEY.H(11): error C231: 'L6': redefinition
+KEY.H(12): error C231: 'L7': redefinition
+KEY.H(13): error C231: 'K0': redefinition
+KEY.H(14): error C231: 'K1': redefinition
+KEY.H(15): error C231: 'K2': redefinition
+KEY.H(16): error C231: 'K3': redefinition
+KEY.H(24): error C237: 'Key': function already has a body
+KEY.H(56): error C237: 'key_scan': function already has a body
+MUSIC.H(70): error C231: 'P37': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TIMER.H(2): error C231: 'P37': redefinition
+BUZZER.H(5): error C231: 'P37': redefinition
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+TIMER.H(2): error C231: 'P37': redefinition
+TIMER.H(14): error C237: 'timerInit': function already has a body
+BUZZER.H(5): error C231: 'P37': redefinition
+BUZZER.H(11): error C237: 'Buzzer_Delay500us': function already has a body
+BUZZER.H(18): error C237: '_Buzzer_Time': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+KEY.H(5): error C231: 'L0': redefinition
+KEY.H(6): error C231: 'L1': redefinition
+KEY.H(7): error C231: 'L2': redefinition
+KEY.H(8): error C231: 'L3': redefinition
+KEY.H(9): error C231: 'L4': redefinition
+KEY.H(10): error C231: 'L5': redefinition
+KEY.H(11): error C231: 'L6': redefinition
+KEY.H(12): error C231: 'L7': redefinition
+KEY.H(13): error C231: 'K0': redefinition
+KEY.H(14): error C231: 'K1': redefinition
+KEY.H(15): error C231: 'K2': redefinition
+KEY.H(16): error C231: 'K3': redefinition
+KEY.H(24): error C237: 'Key': function already has a body
+KEY.H(56): error C237: 'key_scan': function already has a body
+MUSIC.H(70): error C231: 'P37': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TIMER.H(2): error C231: 'P37': redefinition
+BUZZER.H(5): error C231: 'P37': redefinition
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+TIMER.H(2): error C231: 'P37': redefinition
+TIMER.H(14): error C237: 'timerInit': function already has a body
+BUZZER.H(5): error C231: 'P37': redefinition
+BUZZER.H(11): error C237: 'Buzzer_Delay500us': function already has a body
+BUZZER.H(18): error C237: '_Buzzer_Time': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+KEY.H(5): error C231: 'L0': redefinition
+KEY.H(6): error C231: 'L1': redefinition
+KEY.H(7): error C231: 'L2': redefinition
+KEY.H(8): error C231: 'L3': redefinition
+KEY.H(9): error C231: 'L4': redefinition
+KEY.H(10): error C231: 'L5': redefinition
+KEY.H(11): error C231: 'L6': redefinition
+KEY.H(12): error C231: 'L7': redefinition
+KEY.H(13): error C231: 'K0': redefinition
+KEY.H(14): error C231: 'K1': redefinition
+KEY.H(15): error C231: 'K2': redefinition
+KEY.H(16): error C231: 'K3': redefinition
+KEY.H(24): error C237: 'Key': function already has a body
+KEY.H(56): error C237: 'key_scan': function already has a body
+MUSIC.H(70): error C231: 'P37': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TIMER.H(2): error C231: 'P37': redefinition
+BUZZER.H(5): error C231: 'P37': redefinition
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+TIMER.H(2): error C231: 'P37': redefinition
+TIMER.H(14): error C237: 'timerInit': function already has a body
+BUZZER.H(5): error C231: 'P37': redefinition
+BUZZER.H(11): error C237: 'Buzzer_Delay500us': function already has a body
+BUZZER.H(18): error C237: '_Buzzer_Time': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+KEY.H(5): error C231: 'L0': redefinition
+KEY.H(6): error C231: 'L1': redefinition
+KEY.H(7): error C231: 'L2': redefinition
+KEY.H(8): error C231: 'L3': redefinition
+KEY.H(9): error C231: 'L4': redefinition
+KEY.H(10): error C231: 'L5': redefinition
+KEY.H(11): error C231: 'L6': redefinition
+KEY.H(12): error C231: 'L7': redefinition
+KEY.H(13): error C231: 'K0': redefinition
+KEY.H(14): error C231: 'K1': redefinition
+KEY.H(15): error C231: 'K2': redefinition
+KEY.H(16): error C231: 'K3': redefinition
+KEY.H(24): error C237: 'Key': function already has a body
+KEY.H(56): error C237: 'key_scan': function already has a body
+MUSIC.H(70): error C231: 'P37': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+TIMER.H(2): error C231: 'P37': redefinition
+BUZZER.H(5): error C231: 'P37': redefinition
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+TIMER.H(2): error C231: 'P37': redefinition
+TIMER.H(14): error C237: 'timerInit': function already has a body
+BUZZER.H(5): error C231: 'P37': redefinition
+BUZZER.H(11): error C237: 'Buzzer_Delay500us': function already has a body
+BUZZER.H(18): error C237: '_Buzzer_Time': function already has a body
+DELAY.H(14): error C237: '_delay': function already has a body
+DELAY.H(19): error C237: '_delay12us': function already has a body
+KEY.H(5): error C231: 'L0': redefinition
+KEY.H(6): error C231: 'L1': redefinition
+KEY.H(7): error C231: 'L2': redefinition
+KEY.H(8): error C231: 'L3': redefinition
+KEY.H(9): error C231: 'L4': redefinition
+KEY.H(10): error C231: 'L5': redefinition
+KEY.H(11): error C231: 'L6': redefinition
+KEY.H(12): error C231: 'L7': redefinition
+KEY.H(13): error C231: 'K0': redefinition
+KEY.H(14): error C231: 'K1': redefinition
+KEY.H(15): error C231: 'K2': redefinition
+KEY.H(16): error C231: 'K3': redefinition
+KEY.H(24): error C237: 'Key': function already has a body
+KEY.H(56): error C237: 'key_scan': function already has a body
+MUSIC.H(70): error C231: 'P37': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(1): warning C318: can't open file 'REGX52.H'
+MAIN.C(6): error C202: 'P2': undefined identifier
+MAIN.C(321): error C202: 'TR0': undefined identifier
+MAIN.C(323): error C202: 'TR0': undefined identifier
+MAIN.C(327): error C202: 'TR0': undefined identifier
+MAIN.C(338): error C202: 'TL0': undefined identifier
+MAIN.C(339): error C202: 'TH0': undefined identifier
+MAIN.C(340): error C202: 'Buzzer': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(1): warning C318: can't open file 'REGX52.H'
+MAIN.C(6): error C202: 'P2': undefined identifier
+MAIN.C(321): error C202: 'TR0': undefined identifier
+MAIN.C(323): error C202: 'TR0': undefined identifier
+MAIN.C(327): error C202: 'TR0': undefined identifier
+MAIN.C(338): error C202: 'TL0': undefined identifier
+MAIN.C(339): error C202: 'TH0': undefined identifier
+MAIN.C(340): error C202: 'Buzzer': undefined identifier
+compiling timer.c...
+TIMER.C(3): error C202: 'TMOD': undefined identifier
+TIMER.C(4): error C202: 'TMOD': undefined identifier
+TIMER.C(5): error C202: 'TL0': undefined identifier
+TIMER.C(6): error C202: 'TH0': undefined identifier
+TIMER.C(7): error C202: 'TF0': undefined identifier
+TIMER.C(8): error C202: 'TR0': undefined identifier
+TIMER.C(9): error C202: 'ET0': undefined identifier
+TIMER.C(10): error C202: 'EA': undefined identifier
+TIMER.C(11): error C202: 'PT0': undefined identifier
+compiling delay.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling timer.c...
+TIMER.C(3): error C202: 'TMOD': undefined identifier
+TIMER.C(4): error C202: 'TMOD': undefined identifier
+TIMER.C(5): error C202: 'TL0': undefined identifier
+TIMER.C(6): error C202: 'TH0': undefined identifier
+TIMER.C(7): error C202: 'TF0': undefined identifier
+TIMER.C(8): error C202: 'TR0': undefined identifier
+TIMER.C(9): error C202: 'ET0': undefined identifier
+TIMER.C(10): error C202: 'EA': undefined identifier
+TIMER.C(11): error C202: 'PT0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling timer.c...
+compiling delay.c...
+linking...
+Program Size: data=87.0 xdata=0 code=868
+creating hex file from "Project"...
+"Project" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(1): warning C318: can't open file 'REGX52.H'
+main.c(4): warning C318: can't open file 'timer0.h'
+MAIN.C(7): error C202: 'P2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(4): warning C318: can't open file 'timer0.h'
+MAIN.C(307): warning C206: 'Timer0Init': missing function-prototype
+linking...
+Program Size: data=87.0 xdata=0 code=1276
+creating hex file from "Project"...
+"Project" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(4): warning C318: can't open file 'timer0.h'
+MAIN.C(307): warning C206: 'Timer0Init': missing function-prototype
+linking...
+Program Size: data=87.0 xdata=0 code=1276
+creating hex file from "Project"...
+"Project" - 0 Error(s), 2 Warning(s).
